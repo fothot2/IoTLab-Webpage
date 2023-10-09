@@ -1,0 +1,8 @@
+{
+    "PAT": {
+        "Description":"Developed a system that combines electronic and mobile health technologies which keeps a constant watch on the health of individual patients, with a special focus on quickly spotting outbreaks of allergic diseases. The System sends timely electronic alerts to specific doctors and makes it easy to gather important numbers and facts about different types of allergies that come and go with the seasons. A test version of a tool that automatically keeps track of patients with respiratory allergies was developed. This tool uses information from devices people can wear and from their mobile phones to learn about how they move and the sounds around them."
+    },
+    "VBD": {
+        "Description":"A direct contract with Pfizer's Center of Digital Innovation. Within this collaboration, we innovated by creating novel techniques that harnessed the power of the Internet of Things (IoT) and Artificial Intelligence (AI). Our focus was on devising methods for tracking coughs and detecting respiratory symptoms via a smart stethoscope feature, all integrated into a unified smartphone application. These endeavors were guided by the principles of tinyML, ensuring efficiency and effectiveness in our approach."
+    }
+}
