@@ -129,22 +129,52 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
-  });
-
-  // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+  $('#portfolio-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoHeight:true,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:false
+        }
     }
-  });
+  })
+  $('#team-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoHeight:true,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:false
+        }
+    }
+  })
 
   //Google Map
   var get_latitude = $('#google-map').data('latitude');
@@ -164,5 +194,4 @@ jQuery(document).ready(function( $ ) {
     });
   }
   google.maps.event.addDomListener(window, 'load', initialize_google_map);
-
 });
