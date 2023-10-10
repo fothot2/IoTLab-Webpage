@@ -1,6 +1,6 @@
 //dlecare a function expandtext()
 function expandtext(object) {
-    fetch("../json/projects.json")
+    fetch("/json/projects.json")
         .then(response => response.json())
         //save the json data with the matching id in a variable
         .then(data => {
