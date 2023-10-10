@@ -4,5 +4,9 @@
     },
     "VBD": {
         "Description":"A direct contract with Pfizer's Center of Digital Innovation. Within this collaboration, we innovated by creating novel techniques that harnessed the power of the Internet of Things (IoT) and Artificial Intelligence (AI). Our focus was on devising methods for tracking coughs and detecting respiratory symptoms via a smart stethoscope feature, all integrated into a unified smartphone application. These endeavors were guided by the principles of tinyML, ensuring efficiency and effectiveness in our approach."
+    },
+    "SynAir-G": {
+        "Description":"SynAir-G is an EU funded project aiming to reveal and quantify synergistic interactions between different pollutants affecting health, from mechanisms to real life, focusing on the school setting. Within this project we provide the platform for continuous monitoring of physiological parameters and we analyse the interaction effects of chemical, biological pollutants and ambient conditions on health outcomes, by using state-of-the-art AI methods and mathematical modelling."
     }
+    
 }
