@@ -972,3 +972,55 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits a {
   color: #0c2e8a;
 }
+
+.stylish_button {
+  padding: 2px;
+  font-size: 17px;
+  color: #000;
+  background: linear-gradient(to right, #fdde5c, #f8ab5e, #f56a62, #a176c8, #759beb, #65beb3, #70db96);
+  border-radius: 30px;
+}
+.stylish_button > span {
+  display: block;
+  padding: 10px 20px;
+  font-size: 17px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+button {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.container_random {
+  position: relative;
+  height: 300px;
+}
+
+/* Style for the random text elements */
+.random-text {
+  position: absolute;
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 0.5s ease-in-out; /* Apply a transition effect to opacity */
+}
+
+.underline-on-hover:hover {
+text-decoration: underline;
+}
+
