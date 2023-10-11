@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /home/fotis/aiot_test
+            cd ${{ secrets.PATH }}
             git fetch origin
             git reset --hard origin/main
             git clean -f -d
