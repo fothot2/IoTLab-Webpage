@@ -36,22 +36,6 @@
   <!-- Scripts-->
   <script src="js/publications.js"></script>
 
-  <style>
-    /* Style for the container div */
-    .container_random {
-      position: relative;
-      height: 300px;
-    }
-
-    /* Style for the random text elements */
-    .random-text {
-      position: absolute;
-      opacity: 0; /* Start with opacity 0 */
-      transition: opacity 0.5s ease-in-out; /* Apply a transition effect to opacity */
-    }
-   
-    
-    </style>
 
 </head>
 
@@ -87,12 +71,10 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Home</a></li>
-          <li><a href="#about">IoT Lab</a></li>
-          <li><a href="#services">Research Areas</a></li>
-          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="publications.html">Publications</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -254,35 +236,15 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="text-center">
-                  <a href="projects.html" class="btn btn-lg btn-outline">
-                    <span class="glyphicon glyphicon-search"></span> View Projects
+                  <a href="projects.html" class="btn btn-lg-1 btn-outline">
+                    <button class="stylish_button">
+                      <span>All Projects</span>
+                    </button>       
                   </a>
                 </div>
               </div>
             </div>
     </section><!-- #portfolio -->
-
-
-    <!--==========================
-      Team
-    ============================-->
-    <section id="team" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>Team</h2>
-        </div>
-        <!--insert button to go to projects page-->
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="text-center">
-                <a href="team.html" class="btn btn-lg btn-outline">
-                  <span class="glyphicon glyphicon-search"></span> View Team Members
-                </a>
-              </div>
-            </div>
-          </div>
-    </section><!-- #team -->
 
     <section id="services">
       <div class="container">
@@ -378,11 +340,12 @@
         <!-- add see more href on the right-->
       </div>
       <div class="text-center">
-        <a href="publications.html" class="btn btn-lg btn-outline">
-          <span class="glyphicon glyphicon-search"></span>List of Publications
+        <a href="publications.html" class="btn btn-lg-1 btn-outline">
+          <button class="stylish_button">
+            <span>All Publications</span>
+          </button>       
         </a>
       </div>
-
     </section><!-- #services -->
 
 
