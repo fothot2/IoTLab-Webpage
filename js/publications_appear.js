@@ -17,6 +17,14 @@ function getRandomPosition(existingPositions) {
   existingPositions.push({ x: randomX, y: randomY });
   occupiedRows.add(randomY);
 
+  //if mobile screen size then do not return random x and y
+  if (window.innerWidth < 768) {
+    return {
+      left: 0,
+      top: 0
+    };
+  }
+
   return {
     left: randomX * cellWidth + 'px',
     top: randomY * cellHeight + 'px'
