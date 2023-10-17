@@ -111,24 +111,6 @@ jQuery(document).ready(function( $ ) {
   });
 
 
-  // Porfolio - uses the magnific popup jQuery plugin
-  $('.portfolio-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
-  });
-
   $('#portfolio-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -148,29 +130,6 @@ jQuery(document).ready(function( $ ) {
         },
         1000:{
             items:5,
-            nav:false
-        }
-    }
-  })
-  $('#team-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    autoHeight:true,
-    responsiveClass:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:4,
             nav:false
         }
     }
