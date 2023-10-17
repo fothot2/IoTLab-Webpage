@@ -1,5 +1,3 @@
-# FILEPATH: /D:/Github/aiot_test/.htaccess
-
 # Enable caching for images
 <IfModule mod_expires.c>
     ExpiresActive On
