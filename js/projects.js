@@ -1,4 +1,3 @@
-//dlecare a function expandtext()
 function expandtext(object) {
     fetch("../json/projects.json")
         .then(response => response.json())

@@ -1,0 +1,8 @@
+{
+    "nikole": {
+        "name": "Professor Sotiris Nikoletseas",
+        "bio": "Sotiris Nikoletseas is a Full Professor at the Computer Engineering and Informatics Department of Patras University, Greece. Also, the Director of the SensorsLab and a Scientific Consultant of the Algorithms Group at the Computer Technology Institute and Press “Diophantus” (CTI), Greece. He has been a Visiting Professor at the Universities of Geneva, Ottawa and Southern California (USC).<br><br>His research interests include algorithmic aspects of wireless sensor networks and the Internet of Things (IoT), wireless energy transfer protocols, probabilistic techniques and random graphs, average case analysis and probabilistic algorithms, algorithmic engineering.<br><br>He has coauthored over 200 publications in international Journals and refereed Conferences, 3 Books (on the Probabilistic Method, on theoretical aspects of sensor networks, on wireless power) and 30 Invited Chapters in Books by major publishers. He has served as the Program Committee Chair of several Conferences, and as Associate Editor, Editor of Special Issues and Member of the Editorial Board of major Journals (like TCS, IEEE TC, COMNET, Ad Hoc Networks). He has co-initiated international events related to sensor networks (ALGOSENSORS, DCOSS) and has organized several conferences in Greece (SEA 05, IPDPS 06, MSWiM 07, DCOSS 08). He has delivered several invited talks and tutorials.<br><br>He has participated/coordinated several externally funded R&D Projects related to fundamental aspects of modern networks, mainly by the European Union (EU) in FP7 and H2020, as well as national projects.",
+        "Website": "http://www.cti.gr/RD1/nikole/",
+        "Mail": "nikole@cti.gr"
+    }
+}
