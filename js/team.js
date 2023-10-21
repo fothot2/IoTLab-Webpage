@@ -6,7 +6,11 @@ function fetchCV(id){
             var modal = $("#ModalCenter");
             modal.find(".modal-title").text(cv.name);
             modal.find(".modal-body").html(cv.bio);
-            modal.find("#Website").attr("onclick", "window.open('" + cv.website + "')");
+            if (cv.website == "") {
+                modal.find("#Website").hide();
+            } else {
+                modal.find("#Website").attr("onclick", "window.open('" + cv.website + "')");
+            }
             if (cv.Mail == "") {
                 modal.find("#Mail").hide();
             } else {    
