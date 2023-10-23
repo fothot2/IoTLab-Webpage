@@ -6,15 +6,17 @@ function fetchCV(id){
             var modal = $("#ModalCenter");
             modal.find(".modal-title").text(cv.name);
             modal.find(".modal-body").html(cv.bio);
-            if (cv.website == "") {
-                modal.find("#Website").hide();
+            if (typeof cv.Website == "undefined" || cv.Website == "") {
+                modal.find("#Site").hide();
             } else {
-                modal.find("#Website").attr("onclick", "window.open('" + cv.website + "')");
+                modal.find("#Site").attr("onclick", "window.open('" + cv.Website + "')");
+                modal.find("#Site").show();
             }
-            if (cv.Mail == "") {
+            if (typeof cv.Mail == "undefined" || cv.Mail == "") {
                 modal.find("#Mail").hide();
             } else {    
                 modal.find("#Mail").attr("onclick", "window.open('mailto:" + cv.Mail + "')");
+                modal.find("#Mail").show();
             }
             modal.modal("show");
         });
