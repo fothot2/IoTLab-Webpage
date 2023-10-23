@@ -9,7 +9,7 @@
     {
         "name": "Dr. Pantelis Tzamalis",
         "bio": "Pantelis Tzamalis, born in Patras, Greece, in 1987, received his Ph.D. at the University of Patras, which is related to the Artificial Intelligence of Things domain. In particular, he studied and developed an innovative set of mechanisms, and platforms that are composed of Human Activity & Gesture Recognition, Trustworthy AI, Explainable AI, Crowdsensing, and Text Mining applications, in order to achieve passive, automated, and effective detection, evaluation, and monitoring of Allergic Rhinitis in spatiotemporal and individual scale. He also received his M.Sc. in the Division of Application and Foundation of Computer Science and Technology in 2018, as well as his Diploma in Computer Science in 2014 from the Computer Engineering and Informatics Department, University of Patras, Greece.<br><br>His research interests include Artificial Intelligence, Human Activity Recognition, Human Gesture Recognition, Audio Analysis, Signal Processing, Crowdsensing & Crowdsourcing, Social Networks Analysis, Text Mining, Big Data Analysis, Healthcare 5.0, as well as the Internet of Things (IoT). He owns publications and has served as a reviewer in international conference proceedings and scientific journals.<br><br>He has worked for Google in the context of Google Summer of Code 2019 and 2020 calls. His work focused on the development of Open-Source software and its subsequent maintenance and improvement, which is related to software and Machine Learning infrastructure development in collaboration with JBoss (Red Hat) and MetaBrainz.<br><br>In the various steps of his career path, he has also worked in the industry as a researcher, product manager, senior engineer, or AI architect in several research and development projects funded by the Greek state or the EU, in the Computer Technology Institute and Press “Diophantus” and as a member of the University of Patras' Internet of Things Laboratory. He is also the main contributor of CrossAI, an open-source Python library that consists of high-level functionalities capable of developing end-to-end ML pipelines for Time-Series Analysis regarding Audio, Speech, and finally, Human Activity Recognition.<br><br>Currently, he is a Postdoctoral researcher and the coordinator of the technical and algorithmic domain of the Pfizer CDI-funded research project \"Voice-Based Diagnostics using smartphone devices and AI\", in collaboration with the Internet of Things Laboratory (IoT Lab) of the University of Patras, while he also leads the Artificial Intelligence of Things Group, that at present emphasizes in Healthcare 5.0.",
-        "Website": "",
+        "Website": "https://tzamalisp.github.io/",
         "Mail": "tzamalis@ceid.upatras.gr"
     },
     "stefanos":
@@ -18,5 +18,33 @@
         "bio": "Stefanos H. Panagiotou is a PhD Candidate at the Computer Engineering and Informatics Department of Patras University, Greece. His research is being held under scholarship funding from University of Patras and his interests include deep learning for time series representation modeling and industrial ML applications such as process quality monitoring, predictive maintenance and impact localization for structural health monitoring.",
         "Website": "https://scholar.google.com/citations?user=5jwLBHwAAAAJ&hl=en&oi=ao",
         "Mail": "spanagiotou@ceid.upatras.gr"
+    },
+    "raptopox":
+    {
+        "name": "Assistant Professor Christoforos Raptopoulos",
+        "bio": "",
+        "Website": "https://dblp.org/pid/16/6015.html",
+        "Mail": "raptopox@upatras.gr"
+    },
+    "filios":
+    {
+        "name": "Dr Gabriel Filios",
+        "bio": "",
+        "Website": "https://scholar.google.com/citations?user=d0eH9Q0AAAAJ&hl=en",
+        "Mail": "filiosg@ceid.upatras.gr"
+    },
+    "CaptainAlready":
+    {
+        "name": "Panagiotis Kapetanidis",
+        "bio": "",
+        "Website":"",
+        "Mail": "pkapetanidis@gmail.com"
+    },
+    "fothot":
+    {
+        "name": "Fotis Kalioras",
+        "bio": "",
+        "Website": "https://scholar.google.gr/citations?user=D5z6x1QAAAAJ&hl=en&oi=ao",
+        "Mail": "st1067408@ceid.upatras.gr"
     }
 }
