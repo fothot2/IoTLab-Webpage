@@ -29,7 +29,7 @@
     "filios":
     {
         "name": "Dr Gabriel Filios",
-        "bio": "",
+        "bio": "Gabriel Filios received his Ph.D. from the Computer Engineering and Informatics Department, University of Patras, Greece. His Ph.D. thesis was titled \"Development of adaptive systems for energy saving in buildings with the application of Internet of Things (IoT) technologies and crowdsourcing methodologies\". He is a researcher at the Internet of Things Laboratory (IoT-Lab) at the Computer Engineering and Informatics Department of Patras University, and the Computer Technology Institute and Press \"Diophantus\" (CTI), Greece. He has participated both in technical and management roles in several EU and national R&D projects on Internet of Things (HOBNET, IoT Lab, SAFE STRIP, PAT, ISuMaRe4PV, VBD, zPasteurAIzer, SynAir-G). His research interests include virtual sensor technologies, feature extraction methods in crowd-enabled platforms, energy management in buildings, intelligent edge devices for indoor air quality, and industrial IoT systems for improving energy and production efficiency.",
         "Website": "https://scholar.google.com/citations?user=d0eH9Q0AAAAJ&hl=en",
         "Mail": "filiosg@ceid.upatras.gr"
     },
@@ -46,5 +46,26 @@
         "bio": "",
         "Website": "https://scholar.google.gr/citations?user=D5z6x1QAAAAJ&hl=en&oi=ao",
         "Mail": "st1067408@ceid.upatras.gr"
+    },
+    "tryp":
+    {
+        "name": "Georgios Trypanagnostopoulos",
+        "bio": "Georgios Trypanagnostopoulos is currently a graduate student at the Department of Electrical and Computer Engineering of the University of Peloponnese, in Patras, Greece. His research fields are on Agricutural Techonolgies, Renewable Energy Technologies and New Materials.",
+        "Website": "https://www.researchgate.net/profile/Georgios_Trypanagnostopoulos",
+        "Mail": "gtrypanagn@upatras.gr"
+    },
+    "lena":
+    {
+        "name": "Eleni Karantagli",
+        "bio": "Eleni Karantagli is a Postdoctoral Researcher in the University of Patras, Greece. Her research fields are on Architectural, Renewable Energy and Nanomaterial Technologies.",
+        "Website": "",
+        "Mail": "karantagli@upatras.gr"
+    },
+    "vlachos":
+    {
+        "name": "Dr. Vasileios Vlachos",
+        "bio": "Dr. Vasileios Vlachos is an Assistant Professor at the University of Thessaly. He holds a Diploma in Electronic & Computer Engineering from the Technical University of Crete, an MSc in Integrated Hardware and Software Systems from the Department of Computer Engineering and Informatics of the University of Patras and a PhD in Information Systems Security from the Department of Management Science and Technology of the Athens University of Economics and Business. He is a Senior Researcher at the Computer Technology Institute “Diophantus” (C.T.I.) of Patras, participating in various national and EU funded research projects. Dr. Vlachos has served as a technical expert to the Digital Awareness and Response to Threats (DART) team of the Special Secretariat for Digital Planning of the Hellenic Ministry of Economy and Finance.<br><br>Dr. Vasileios Vlachos has co-authored peer-reviewed journal articles, chapters in scientific books and more than 40 publications in international peer-reviewed conferences. He was an invited speaker in more than 40 national conferences. Dr. Vasileios Vlachos is serving as a reviewer in several international scientific journals and conferences and has also organized, moderated and coordinated successful academic, scientific and professional conferences.<br><br>Dr. Vlachos is a member of the Board of Directors of the Greek Free/Open Source Software Society (GFOSS), member of the Board of Directors of the Hellenic Association of Computer Engineers (HACE), member of the Board of Directors of the Greek Computer Society (GCS) and Deputy Director of the Greek Chapter of the OWASP. He has also served as a special adviser and technical expert at the Digital Awareness and Response to Threats (DART) team of the Special Secretariat for Digital Planning of the Hellenic Ministry of Economy and Finance.",
+        "Website":"https://www.econ.uth.gr/en/department/staff/faculty/87-dr-vasileios-vlachos",
+        "Mail":"vsvlachos@uth.gr"
     }
 }
