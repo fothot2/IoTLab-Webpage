@@ -3,30 +3,31 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AIoT Group</title>
+    <title>Internet of Things Lab</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
     <!-- Favicons -->
-      <!-- Favicon for various devices -->
-      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-      <link rel="manifest" href="img/favicon/site.webmanifest">
-      
-      <!-- Standard favicon (used by most browsers, including Chrome) -->
-      <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png">
+    <!-- Favicon for various devices -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
 
-      <!-- Generic favicon for older browsers -->
-      <link rel="icon" href="img/favicon/favicon.ico">
+    <!-- Standard favicon (used by most browsers, including Chrome) -->
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png">
+
+    <!-- Generic favicon for older browsers -->
+    <link rel="icon" href="img/favicon/favicon.ico">
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
         rel="stylesheet">
     <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -38,35 +39,58 @@
 
 <body id="body">
 
-<!--========================== Header ============================-->
-  <header id="header">
-    <div class="container">
-      <div id="logo" class="pull-left">
-        <a href="index.html"><img src="img/about-img.png" alt="" title="" width="140"/></a>
-      </div>
+    <!--========================== Header ============================-->
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <a href="index.html"><img src="img/about-img.png" alt="" title="" width="140" /></a>
+                <!--========================== Navigation ============================-->
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ResearchAreas.html">Research Areas</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li class="menu-active"><a href="team.html">Team</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="publicity.html">Publicity</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
 
-<!--========================== Navigation ============================-->
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li class="menu-active"><a href="team.html">Team</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="publicity.html">Publicity</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-      </nav>
-<!--========================== #Navigation ============================-->
+            </div>
+            <!--========================== #Navigation ============================-->
+
+    </header>
+    <!--========================== #Header ============================-->
+
+    <!--========================== Modal ============================-->
+    <div class="modal fade bd-example-modal-lg" id="ModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="ModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="Mail">Send Email</button>
+                    <button type="button" class="btn btn-primary" id="Site">Website</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
-<!--========================== #Header ============================-->
 
-<main id="main">
-<!--========================== Team ============================-->
+    <main id="main">
+        <!--========================== Team ============================-->
         <section id="team" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
-                    <h2>Our Team</h2>
+                    <h2>LAB DIRECTOR</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -78,22 +102,36 @@
                                 Computer Engineering and Informatics Department, Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('nikole')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://www.linkedin.com/in/sotiris-nikoletseas-3227625/"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:nikole@cti.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
-                                <br>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="wow fadeInUp">
 
+            <div class="container">
+                <div class="section-header">
+                    <h2>SENIOR RESEARCHERS/ GROUP LEADERS</h2>
+                </div>
+                <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic"><img src="img/team/Christoforos.png" alt="" width=220px height="220"></div>
                             <div class="details">
-                                <h4>Assis. Prof. Christoforos Raptopoulos</h4>
+                                <h4>Assist. Prof. Christoforos Raptopoulos</h4>
                                 <span>Foundations of Networks and Intelligent Systems Group Leader</span>
                                 Department of Mathematics, Patras University, Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('raptopox')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="mailto:raptopox@upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -101,14 +139,18 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/filios.jpg" alt="" width=220px height="220"></div>
+                            <div class="pic"><img src="img/team/filios.webp" alt="" width=220px height="220"></div>
                             <div class="details">
                                 <h4>Dr. Gabriel Filios</h4>
                                 <span>Edge Intelligence Group Leader</span>
-                                Post-doc Researcher at the Computer Engineering and Informatics Department of Patras
+                                Post-doc Researcher, Computer Engineering and Informatics Department of Patras
                                 University, Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('filios')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://gr.linkedin.com/in/gabriel-filios-9b649158"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:filiosg@ceid.upatras.gr "><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -116,18 +158,31 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/tzamalis.png" alt="" width="220px" height="220"></div>
+                            <div class="pic"><img src="img/team/tzamalis.webp" alt="" width="220px" height="220"></div>
                             <div class="details">
                                 <h4>Dr. Pantelis Tzamalis</h4>
                                 <span>AIoT Group Leader</span>
-                                Post-doc Researcher at the Computer Engineering and Informatics Department of Patras
+                                Post-doc Researcher, Computer Engineering and Informatics Department of Patras
                                 University, Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('jmp')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://www.linkedin.com/in/pantelis-tzamalis/"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:tzamalis@ceid.upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="wow fadeInUp">
+            <div class="container">
+                <div class="section-header">
+                    <h2> RESEARCH ENGINEERS/ PhD CANDIDATES</h2>
+                </div>
+                <div class="row">
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
@@ -135,25 +190,12 @@
                             <div class="details">
                                 <h4>Stefanos Panagiotou</h4>
                                 <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="pic"><img src="img/team/panagiotou.jpg" alt="" width=220px height="220"></div>
-                            <div class="details">
-                                <h4>Stefanos Panagiotou</h4>
-                                <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
-                                Greece.
-                                <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('stefanos')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="mailto:spanagiotou@ceid.upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -162,14 +204,18 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/kapetanidis.png" alt="" width=180px height="220"></div>
+                            <div class="pic"><img src="img/team/kapetanidis.png" alt="" width=240px height="220"></div>
                             <div class="details">
                                 <h4>Panagiotis Kapetanidis</h4>
                                 <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('CaptainAlready')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://gr.linkedin.com/in/kapetanidispanagiotis"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:pkapetanidis@gmail.com"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -181,10 +227,14 @@
                             <div class="details">
                                 <h4>Fotis Kalioras</h4>
                                 <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('fothot')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://gr.linkedin.com/in/fotis-kalioras"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:st1067408@ceid.upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -192,44 +242,68 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/kontogiannis.png" alt="" width=220px height="220"></div>
+                            <div class="pic"><img src="img/team/kontogiannis.png" alt="" width=180px height="220"></div>
                             <div class="details">
                                 <h4>George Kontogiannis</h4>
-                           <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
+                                <span>Research Engineer</span>
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="pic"><img src="img/team/gadalla.webp" alt="" width=220px height="220"></div>
+                            <div class="details">
+                                <h4>Minas Gadalla</h4>
+                                <span>Research Engineer</span>
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
+                                Greece.
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/minas-gadalla/?originalSubdomain=gr"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/kontogiannis.png" alt="" width=220px height="220"></div>
+                            <div class="pic"><img src="img/team/no_photo.png" alt="" width=220px height="220"></div>
                             <div class="details">
                                 <h4>Kyriakos Giannopoulos</h4>
                                 <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
+                                PhD Student at the Computer Engineering and Informatics Department of Patras University,
                                 Greece.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                </div>
+            </div>
+        </section>
+        <section id="team" class="wow fadeInUp">
+            <div class="container">
+                <div class="section-header">
+                    <h2>FINANCIAL MANAGEMENT</h2>
+                </div>
+                <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/kontogiannis.png" alt="" width=220px height="220"></div>
+                            <div class="pic"><img src="img/team/EKarantagli.webp" alt="" width=220px height="220"></div>
                             <div class="details">
-                                <h4>Lena Karantagli</h4>
-                                <span>Financial Management</span>
-                                Description needed.
+                                <h4>Dr. Eleni Karantagli</h4>
+                                Postdoctoral Researcher
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('lena')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="mailto:karantagli@upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -239,13 +313,13 @@
 
             </div>
         </section>
-<!--========================== #Team ============================-->
+        <!--========================== #Team ============================-->
 
-<!--========================= External Collaborators ============================-->
+        <!--========================= External Collaborators ============================-->
         <section id="team" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
-                    <h2>External Collaborators</h2>
+                    <h2>EXTERNAL COLLABORATORS</h2>
                 </div>
 
                 <div class="row">
@@ -253,10 +327,14 @@
                         <div class="member">
                             <div class="pic"><img src="img/team/vvlachos.jpg" alt="" width=250px height="220"></div>
                             <div class="details">
-                                <h4>Vasileios Vlachos</h4>
+                                <h4>Dr. Vasileios Vlachos</h4>
                                 Assistant Professor at the University of Thessaly.
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('vlachos')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://gr.linkedin.com/in/vsvlachos"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:vsvlachos@uth.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -264,38 +342,41 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
-                            <div class="pic"><img src="img/team/kontogiannis.png" alt="" width=220px height="220"></div>
+                            <div class="pic"><img src="img/team/GTrypanagnostopoulos.webp" alt="" width=220px
+                                    height="220"></div>
                             <div class="details">
-                                <h4>Georgios <br>Trypanagnostopou <br>los</h4>
-                                <span>Research Engineer</span>
-                                PHD Student at the Computer Engineering and Informatics Department of Patras University,
-                                Greece.
+                                <h4>Georgios Trypanagnostopoulos</h4>
+                                Researcher
                                 <div class="social">
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <i onclick="fetchCV('tryp')" style="cursor: pointer;"
+                                        class="fa-regular fa-id-card"></i>
+                                    <a href="https://gr.linkedin.com/in/georgios-trypanagnostopoulos-0a1085110"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:gtrypanagn@upatras.gr"><i class="fa-solid fa-at"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                
-    
+
+
             </div>
         </section>
-<!--========================= #External Collaborators ============================-->
+        <!--========================= #External Collaborators ============================-->
 
-<!--========================= Past alumni ============================-->
+        <!--========================= Past alumni ============================-->
         <section id="past-alumni" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
-                    <h2>Past Alumni</h2>
+                    <h2>PAST ALUMNI</h2>
                 </div>
                 <ul>
                     <li><a href="https://staffprofiles.bournemouth.ac.uk/display/mangelopoulos">Dr. Constantinos Marios
                             Angelopoulos</a> (data aggregation in mobile sensor networks). Was awarded his PhD in 2013.
-                        Now Associate Professor in the UK. </li>
+                        Now Full Professor in the UK. </li>
                     <li><a href="http://cnd.iit.cnr.it/traptis/">Dr. Theofanis P. Raptis</a> (Rechargeable sensor
-                        networks). Was awarded his PhD in 2016. Now post-doctoral researcher at National Research
+                        networks). Was awarded his PhD in 2016. Now Senior Researcher at National Research
                         Council, Institute of Informatics and Telematics, Italy.</li>
                     <li><a href="https://scholar.google.gr/citations?user=mWGxfV0AAAAJ&hl=en">Dr. Ioannis Katsidimas</a>
                         (Wireless power transfer protocols, IoT systems for structural health). Now at the Mechanical
@@ -348,13 +429,13 @@
                 </ul>
             </div>
         </section>
-<!--========================= #Past alumni ============================-->
+        <!--========================= #Past alumni ============================-->
 
-<!--========================= Post doctoral ============================-->
+        <!--========================= Post doctoral ============================-->
         <section id="postdoc" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
-                    <h2>Post-doctoral Researchers</h2>
+                    <h2>POST-DOCTORAL RESEARCHERS</h2>
                 </div>
                 <ul>
                     <li>
@@ -368,13 +449,13 @@
                 </ul>
 
         </section>
-<!--========================= #Post doctoral ============================-->
+        <!--========================= #Post doctoral ============================-->
 
-<!--=========================== Visiting researchers ============================-->
+        <!--=========================== Visiting researchers ============================-->
         <section id="visitingresearch" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
-                    <h2>Visiting Researchers</h2>
+                    <h2>VISITING RESEARCHERS</h2>
                 </div>
                 <ul>
                     <li><a href="https://www.researchgate.net/scientific-contributions/Luminita-Moraru-69703048">Dr
@@ -391,33 +472,32 @@
                     </li>
                 </ul>
             </div>
-         </section>
-<!--=========================== Visiting researchers ============================-->
+        </section>
+        <!--=========================== Visiting researchers ============================-->
     </main>
 
-<!--========================== Javascript ============================-->
+    <!--========================== Javascript ============================-->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="lib/superfish/hoverIntent.js"></script>
     <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/sticky/sticky.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script src="js/team.js"></script>
 
-<!--========================== #Javascript ============================-->
+    <!--========================== #Javascript ============================-->
 
 </body>
 

@@ -1,0 +1,71 @@
+{
+    "nikole": {
+        "name": "Professor Sotiris Nikoletseas",
+        "bio": "Sotiris Nikoletseas is a Full Professor and Founding Director of the Internet of Things Laboratory (IoT-Lab) at the Computer Engineering and Informatics Department of Patras University, Greece. Also, a Senior Researcher of the Algorithms Group at the Computer Technology Institute and Press \"Diophantus\" (CTI), Greece. He has been a Visiting Professor at the Universities of Geneva, Ottawa and Southern California (USC).<br><br>His research interests include algorithmic aspects of wireless sensor networks and the Internet of Things (IoT), Artificial Intelligence of Things (AIoT), wireless energy transfer protocols, probabilistic algorithms and random graphs, psychoanalysis driven computing and its applications to social networks and intelligent systems.<br><br>He has coauthored over 300 publications in international Journals and refereed Conferences, 3 Books (on the Probabilistic Method, on theoretical aspects of sensor networks, on wireless power) and 30 Invited Chapters in Books by major publishers. He has been consistently included in lists of highly cited computer scientists. He has served as the Program Committee Chair of several Conferences, and as Editor of major Journals. He has co-initiated and currently leads international events related to sensor networks (ALGOSENSORS, DCOSS-IoT) and has organized several international conferences in Greece. He has delivered  many invited talks and tutorials and has received best paper and technology awards and distinctions.<br><br>He has coordinated several externally funded R&D Projects related to fundamental and applied aspects of modern networks, mainly by the European Union (EU), as well as large scale national research projects and direct contracts from industry.",
+        "Website": "http://www.cti.gr/RD1/nikole/",
+        "Mail": "nikole@cti.gr"
+    },
+    "jmp":
+    {
+        "name": "Dr. Pantelis Tzamalis",
+        "bio": "Pantelis Tzamalis, born in Patras, Greece, in 1987, received his Ph.D. at the University of Patras, which is related to the Artificial Intelligence of Things domain. In particular, he studied and developed an innovative set of mechanisms, and platforms that are composed of Human Activity & Gesture Recognition, Trustworthy AI, Explainable AI, Crowdsensing, and Text Mining applications, in order to achieve passive, automated, and effective detection, evaluation, and monitoring of Allergic Rhinitis in spatiotemporal and individual scale. He also received his M.Sc. in the Division of Application and Foundation of Computer Science and Technology in 2018, as well as his Diploma in Computer Science in 2014 from the Computer Engineering and Informatics Department, University of Patras, Greece.<br><br>His research interests include Artificial Intelligence, Human Activity Recognition, Human Gesture Recognition, Audio Analysis, Signal Processing, Crowdsensing & Crowdsourcing, Social Networks Analysis, Text Mining, Big Data Analysis, Healthcare 5.0, as well as the Internet of Things (IoT). He owns publications and has served as a reviewer in international conference proceedings and scientific journals.<br><br>He has worked for Google in the context of Google Summer of Code 2019 and 2020 calls. His work focused on the development of Open-Source software and its subsequent maintenance and improvement, which is related to software and Machine Learning infrastructure development in collaboration with JBoss (Red Hat) and MetaBrainz.<br><br>In the various steps of his career path, he has also worked in the industry as a researcher, product manager, senior engineer, or AI architect in several research and development projects funded by the Greek state or the EU, in the Computer Technology Institute and Press “Diophantus” and as a member of the University of Patras' Internet of Things Laboratory. He is also the main contributor of CrossAI, an open-source Python library that consists of high-level functionalities capable of developing end-to-end ML pipelines for Time-Series Analysis regarding Audio, Speech, and finally, Human Activity Recognition.<br><br>Currently, he is a Postdoctoral researcher and the coordinator of the technical and algorithmic domain of the Pfizer CDI-funded research project \"Voice-Based Diagnostics using smartphone devices and AI\", in collaboration with the Internet of Things Laboratory (IoT Lab) of the University of Patras, while he also leads the Artificial Intelligence of Things Group, that at present emphasizes in Healthcare 5.0.",
+        "Website": "https://tzamalisp.github.io/",
+        "Mail": "tzamalis@ceid.upatras.gr"
+    },
+    "stefanos":
+    {
+        "name": "Stefanos Panagiotou",
+        "bio": "Stefanos H. Panagiotou is a PhD Candidate at the Computer Engineering and Informatics Department of Patras University, Greece. His research is being held under scholarship funding from University of Patras and his interests include deep learning for time series representation modeling and industrial ML applications such as process quality monitoring, predictive maintenance and impact localization for structural health monitoring.",
+        "Website": "https://scholar.google.com/citations?user=5jwLBHwAAAAJ&hl=en&oi=ao",
+        "Mail": "spanagiotou@ceid.upatras.gr"
+    },
+    "raptopox":
+    {
+        "name": "Assistant Professor Christoforos Raptopoulos",
+        "bio": "",
+        "Website": "https://dblp.org/pid/16/6015.html",
+        "Mail": "raptopox@upatras.gr"
+    },
+    "filios":
+    {
+        "name": "Dr Gabriel Filios",
+        "bio": "Gabriel Filios received his Ph.D. from the Computer Engineering and Informatics Department, University of Patras, Greece. His Ph.D. thesis was titled \"Development of adaptive systems for energy saving in buildings with the application of Internet of Things (IoT) technologies and crowdsourcing methodologies\". He is a researcher at the Internet of Things Laboratory (IoT-Lab) at the Computer Engineering and Informatics Department of Patras University, and the Computer Technology Institute and Press \"Diophantus\" (CTI), Greece. He has participated both in technical and management roles in several EU and national R&D projects on Internet of Things (HOBNET, IoT Lab, SAFE STRIP, PAT, ISuMaRe4PV, VBD, zPasteurAIzer, SynAir-G). His research interests include virtual sensor technologies, feature extraction methods in crowd-enabled platforms, energy management in buildings, intelligent edge devices for indoor air quality, and industrial IoT systems for improving energy and production efficiency.",
+        "Website": "https://scholar.google.com/citations?user=d0eH9Q0AAAAJ&hl=en",
+        "Mail": "filiosg@ceid.upatras.gr"
+    },
+    "CaptainAlready":
+    {
+        "name": "Panagiotis Kapetanidis",
+        "bio": "",
+        "Website":"",
+        "Mail": "pkapetanidis@gmail.com"
+    },
+    "fothot":
+    {
+        "name": "Fotis Kalioras",
+        "bio": "",
+        "Website": "https://scholar.google.gr/citations?user=D5z6x1QAAAAJ&hl=en&oi=ao",
+        "Mail": "st1067408@ceid.upatras.gr"
+    },
+    "tryp":
+    {
+        "name": "Georgios Trypanagnostopoulos",
+        "bio": "Georgios Trypanagnostopoulos is currently a graduate student at the Department of Electrical and Computer Engineering of the University of Peloponnese, in Patras, Greece. His research fields are on Agricutural Techonolgies, Renewable Energy Technologies and New Materials.",
+        "Website": "https://www.researchgate.net/profile/Georgios_Trypanagnostopoulos",
+        "Mail": "gtrypanagn@upatras.gr"
+    },
+    "lena":
+    {
+        "name": "Dr. Eleni Karantagli",
+        "bio": "Eleni Karantagli is a Postdoctoral Researcher in the University of Patras, Greece. Her research fields are on Architectural, Renewable Energy and Nanomaterial Technologies.",
+        "Website": "",
+        "Mail": "karantagli@upatras.gr"
+    },
+    "vlachos":
+    {
+        "name": "Dr. Vasileios Vlachos",
+        "bio": "Dr. Vasileios Vlachos is an Assistant Professor at the University of Thessaly. He holds a Diploma in Electronic & Computer Engineering from the Technical University of Crete, an MSc in Integrated Hardware and Software Systems from the Department of Computer Engineering and Informatics of the University of Patras and a PhD in Information Systems Security from the Department of Management Science and Technology of the Athens University of Economics and Business. He is a Senior Researcher at the Computer Technology Institute “Diophantus” (C.T.I.) of Patras, participating in various national and EU funded research projects. Dr. Vlachos has served as a technical expert to the Digital Awareness and Response to Threats (DART) team of the Special Secretariat for Digital Planning of the Hellenic Ministry of Economy and Finance.<br><br>Dr. Vasileios Vlachos has co-authored peer-reviewed journal articles, chapters in scientific books and more than 40 publications in international peer-reviewed conferences. He was an invited speaker in more than 40 national conferences. Dr. Vasileios Vlachos is serving as a reviewer in several international scientific journals and conferences and has also organized, moderated and coordinated successful academic, scientific and professional conferences.<br><br>Dr. Vlachos is a member of the Board of Directors of the Greek Free/Open Source Software Society (GFOSS), member of the Board of Directors of the Hellenic Association of Computer Engineers (HACE), member of the Board of Directors of the Greek Computer Society (GCS) and Deputy Director of the Greek Chapter of the OWASP. He has also served as a special adviser and technical expert at the Digital Awareness and Response to Threats (DART) team of the Special Secretariat for Digital Planning of the Hellenic Ministry of Economy and Finance.",
+        "Website":"https://www.econ.uth.gr/en/department/staff/faculty/87-dr-vasileios-vlachos",
+        "Mail":"vsvlachos@uth.gr"
+    }
+}

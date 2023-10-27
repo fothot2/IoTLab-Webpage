@@ -3,6 +3,7 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  font-display: swap;
 }
 
 a {
@@ -161,9 +162,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 60vh;
   position: relative;
-  background: url("../img/intro-carousel/1.webp") no-repeat;
   background-size: cover;
 }
+
+
 
 #intro .intro-content {
   position: absolute;
@@ -268,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul {
-  position: absolute;
+  position: relative;
   display: none;
   top: 100%;
   left: 0;
@@ -499,7 +501,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h2 {
   font-size: 32px;
   color: #0c2e8a;
-  text-transform: uppercase;
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;

@@ -2,60 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Internet of Things Lab</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-    <!-- Favicons -->
-      <!-- Favicon for various devices -->
-      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-      <link rel="manifest" href="img/favicon/site.webmanifest">
-      
-      <!-- Standard favicon (used by most browsers, including Chrome) -->
-      <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png">
+  <meta charset="utf-8">
+  <title>Internet of Things Lab</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <!-- Favicons -->
+  <!-- Favicon for various devices -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
 
-      <!-- Generic favicon for older browsers -->
-      <link rel="icon" href="img/favicon/favicon.ico">
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-      rel="stylesheet">
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Scripts-->
-    <script src="js/publications.js"></script>
+  <!-- Standard favicon (used by most browsers, including Chrome) -->
+  <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png">
+
+  <!-- Generic favicon for older browsers -->
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+    rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body id="body">
 
-<!--==========================#Top Bar============================-->
+  <!--==========================#Top Bar============================-->
 
-<!--========================== Header ============================-->
+  <!--========================== Header ============================-->
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!-- <h1><a href="#body" class="scrollto">Reve<span>al</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="img/about-img.png" alt="" title="" width="140"/></a>
+        <a href="index.html"><img src="img/about-img.png" aria-label="IoTLab" alt="" title="" width="140" /></a>
       </div>
 
-<!--========================== Navigation ============================-->
+      <!--========================== Navigation ============================-->
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="ResearchAreas.html">Research Areas</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="publications.html">Publications</a></li>
@@ -63,51 +61,52 @@
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
-<!--========================== #Navigation ============================-->
+      <!--========================== #Navigation ============================-->
     </div>
   </header>
-<!--========================== #Header ============================-->
+  <!--========================== #Header ============================-->
 
-<!--========================== Introduction ============================-->
+  <!--========================== Introduction ============================-->
   <section id="intro">
 
     <div class="intro-content">
       <h2>Welcome to the<br> <span>Internet of Things Lab</span><br>of the University of Patras </h2>
       <div>
-        <a href="#about" class="btn-get-started scrollto">IoT Lab</a>
-        <a href="#Projects" class="btn-projects scrollto">Our Projects</a>
+        <a id="services_btn" class="btn-get-started scrollto" style="cursor: pointer;">Research Areas</a>
+        <a id="projects_btn" class="btn-projects scrollto" style="cursor: pointer;">Our Projects</a>
       </div>
     </div>
 
     <div id="intro-carousel" class="owl-carousel">
-      <div class="item" style="background-image: url('img/intro-carousel/1.webp');"></div>
+      <div class="item" style="background-image: url('img/intro-carousel/1/1-2000w.webp');"></div>
       <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
     </div>
 
   </section>
-<!--========================== #Introduction ============================-->
+  <!--========================== #Introduction ============================-->
 
   <main id="main">
-<!--========================== About Section ============================-->
+    <!--========================== About Section ============================-->
     <section id="about" class="wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg content">
             <h2>IoT Lab</h2>
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i>Who we are</li>
-              Welcome to the website of the Internet of Things Lab (IoT Lab) within the Computer Engineering
-              and Informatics Department at the University of Patras, Greece.
-              The Lab is led by Professor <a href = https://www.cti.gr/RD1/nikole/> Sotiris Nikoletseas</a>.
-              Our Lab is dedicated to advancing the field through cutting-edge research in the design, analysis,
-              and implementation of highly efficient algorithms, systems, applications, and testbeds for Wireless Sensor
-              Networks and the Internet of Things, as well as their underlying foundations and principles.
-              <br>
-              <br>
-              <li><i class="ion-android-checkmark-circle"></i> Balancing Academia and Industry</li>
-              Our work is grounded in both academic exploration and real-world implementation.
-              We believe in creating effective solutions that are not only theoretically sound but
-              also applicable and useful in various industries.
+              <li><i class="ion-android-checkmark-circle"></i><strong>Who we are</strong><br>
+                Welcome to the website of the Internet of Things Lab (IoT Lab) within the Computer Engineering
+                and Informatics Department at the University of Patras, Greece.
+                The Lab is led by Professor <a href=https://www.cti.gr/RD1/nikole> Sotiris Nikoletseas</a>.
+                Our Lab is dedicated to advancing the field through cutting-edge research in the design, analysis,
+                and implementation of highly efficient algorithms, systems, applications, and testbeds for Wireless
+                Sensor
+                Networks and the Internet of Things, as well as their underlying foundations and principles.</li>
+
+              <li><i class="ion-android-checkmark-circle"></i><strong> Balancing Academia and Industry</strong><br>
+                Our work is grounded in both academic exploration and real-world implementation.
+                We believe in creating effective solutions that are not only theoretically sound but
+                also applicable and useful in various industries.
+              </li>
             </ul>
 
           </div>
@@ -115,61 +114,61 @@
 
       </div>
     </section>
-<!--========================== #About Section ============================-->
+    <!--========================== #About Section ============================-->
 
-<!--========================== Research Areas Section ============================-->
+    <!--========================== Research Areas Section ============================-->
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2>Research Areas</h2>
+          <h2>RESEARCH AREAS</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-7">
             <div class="box wow fadeInLeft">
-              <div class="icon"><img src="img/research-areas/wsn_icon.png" width="80"></div>
+              <div class="icon"><img src="img/research-areas/wsn_icon_80x80.webp" width="80" loading="lazy"></div>
               <h4 class="title">Algorithmic Aspects of Wireless Sensor Networks and the Internet of Things (IoT)</h4>
             </div>
           </div>
 
           <div class="col-lg-5">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/hgr.png" width="80"></div>
-              <h4 class="title">Artificial Intelligence <br>  of Things (AIoT)</h4>
+              <div class="icon"><img src="img/research-areas/hgr_small.webp" width="80" loading="lazy"></div>
+              <h4 class="title">Artificial Intelligence <br> of Things (AIoT)</h4>
             </div>
           </div>
 
           <div class="col-lg-5">
             <div class="box wow fadeInLeft">
-              <div class="icon"><img src="img/research-areas/healthcare50.png" width="90"></div>
+              <div class="icon"><img src="img/research-areas/healthcare50_small.webp" width="90" loading="lazy"></div>
               <h4 class="title">Healthcare 5.0</h4>
             </div>
           </div>
 
           <div class="col-lg-7">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/industrial-iot.jpg" width="80"></div>
+              <div class="icon"><img src="img/research-areas/industrial-iot_small.webp" width="80" loading="lazy"></div>
               <h4 class="title">Inteligent IoT Systems in Manufacturing Industries</h4>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/energy_icon.png" width="75"></div>
+              <div class="icon"><img src="img/research-areas/energy_icon_small.webp" width="75" loading="lazy"></div>
               <h4 class="title">Wireless Energy Transfer Protocols <br> and Electromagnetic Radiation Control</h4>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/randomgraph_icon.png" width="95"></div>
+              <div class="icon"><img src="img/research-areas/randomgraph_icon_small.webp" width="95" loading="lazy"></div>
               <h4 class="title">Probabilistic Algorithms and Random Graphs </h4>
             </div>
           </div>
 
           <div class="col-lg-7">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/psychoanalysis_icon.png" width="80"></div>
+              <div class="icon"><img src="img/research-areas/psychoanalysis_icon_small.webp" width="80" loading="lazy"></div>
               <h4 class="title">Psychoanalysis Driven Computing <br> and its Applications to Social Networks <br> and
                 Intelligent Systems</h4>
             </div>
@@ -177,31 +176,42 @@
 
           <div class="col-lg-5">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/crowdsourcing_icon.png" width="80"></div>
+              <div class="icon"><img src="img/research-areas/crowdsourcing_icon_small.webp" width="80" loading="lazy"></div>
               <h4 class="title">Crowdsourcing and Crowdsensing, <br> Mobile Sensing</h4>
             </div>
           </div>
 
           <div class="col-lg-5">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><img src="img/research-areas/trust_icon.png" width="90"></div>
+              <div class="icon"><img src="img/research-areas/trust_icon_small.webp" width="90" loading="lazy"></div>
               <h4 class="title">Privacy and Trust</h4>
             </div>
           </div>
-
-
         </div>
-
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <a href="ResearchAreas.html" class="btn btn-lg-1 btn-outline">
+                <button class="stylish_button">
+                  <span>Research Areas</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
     </section>
-<!--========================== #Research Areas ============================-->
+    <!--========================== #Research Areas ============================-->
 
-<!--========================== Projects ============================-->
+    <!--========================== Projects ============================-->
 
     <section id="Projects" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Projects</h2>
+          <h2>PROJECTS</h2>
           <div id="portfolio-carousel" class="owl-carousel">
             <img src="img/portfolio/pfizer.webp" alt="">
             <center><img src="img/portfolio/synairg.webp" alt="" style="width:45%; height:45%"></center>
@@ -223,19 +233,19 @@
                   <a href="projects.html" class="btn btn-lg-1 btn-outline">
                     <button class="stylish_button">
                       <span>All Projects</span>
-                    </button>       
+                    </button>
                   </a>
                 </div>
               </div>
             </div>
     </section>
-<!--========================== #Projects ============================-->
+    <!--========================== #Projects ============================-->
 
-<!--========================== Publications ============================-->
+    <!--========================== Publications ============================-->
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2>Publications</h2>
+          <h2>PUBLICATIONS</h2>
         </div>
         <div class="container_random" id="textContainer">
           <script src="js/publications_appear.js"></script>
@@ -245,17 +255,17 @@
         <a href="publications.html" class="btn btn-lg-1 btn-outline">
           <button class="stylish_button">
             <span>All Publications</span>
-          </button>       
+          </button>
         </a>
       </div>
     </section>
-<!--========================== #Publications ============================-->
+    <!--========================== #Publications ============================-->
 
-<!--========================== Contact============================-->
+    <!--========================== Contact============================-->
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Contact Us</h2>
+          <h2>CONTACT US</h2>
         </div>
 
         <div class="row contact-info">
@@ -302,23 +312,25 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="lib/sticky/sticky.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script defer src="js/publications.js"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY&callback=Function.prototype"></script>
+
 
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <script src="js/anchoring.js"></script>
 
 </body>
 

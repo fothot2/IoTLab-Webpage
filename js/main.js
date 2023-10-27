@@ -111,24 +111,6 @@ jQuery(document).ready(function( $ ) {
   });
 
 
-  // Porfolio - uses the magnific popup jQuery plugin
-  $('.portfolio-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade',
-    gallery: {
-      enabled: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300,
-      easing: 'ease-in-out',
-      opener: function(openerElement) {
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
-    }
-  });
-
   $('#portfolio-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -152,29 +134,6 @@ jQuery(document).ready(function( $ ) {
         }
     }
   })
-  $('#team-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    autoHeight:true,
-    responsiveClass:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:4,
-            nav:false
-        }
-    }
-  })
 
   //Google Map
   var get_latitude = $('#google-map').data('latitude');
@@ -193,5 +152,5 @@ jQuery(document).ready(function( $ ) {
       map: map
     });
   }
-  google.maps.event.addDomListener(window, 'load', initialize_google_map);
+  //google.maps.event.addDomListener(window, 'load', initialize_google_map);
 });
