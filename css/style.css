@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   #intro .intro-content h2 {
     font-size: 34px;
   }
@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #nav-menu-container {
     display: none;
   }
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #mobile-nav-toggle {
     display: inline;
   }
