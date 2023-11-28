@@ -1,5 +1,4 @@
 jQuery(document).ready(function( $ ) {
-
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -8,10 +7,10 @@ jQuery(document).ready(function( $ ) {
       $('.back-to-top').fadeOut('slow');
     }
   });
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-    return false;
-  });
+  //$('.back-to-top').click(function(){
+  //  $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+  //  return true;
+  //});
 
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
@@ -153,4 +152,13 @@ jQuery(document).ready(function( $ ) {
     });
   }
   //google.maps.event.addDomListener(window, 'load', initialize_google_map);
+});
+
+document.getElementById("back-to-top").addEventListener("click", function() {
+  var targetElement = document.getElementById("top");
+  if (targetElement) {
+    targetElement.scrollIntoView({
+        behavior: "smooth" // You can use "auto" for instant scrolling
+    });
+}
 });
